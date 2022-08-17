@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:700,300);
+
+body {
+		background-color: #1D252D;
+}
+
+.sign-up-modal p,
+.sign-up-modal .form-checkbox label {
+		font-size: 1em;
+		font-weight: 300;
+}
+
+.sign-up-modal .form-checkbox label {
+		cursor: pointer;
+}
+
+.sign-up-modal {
+		font-family: "Roboto", arial, sans-serif;
+		color: #CBC4BC;
+		border-style: solid;
+		border-width: 10px;
+		border-color: #949A90;
+		border-radius: 10px 10px 10px 10px;
+		background-image: -moz-linear-gradient( -90deg, #A2AAAD 0%, #1D252D 100%);
+		background-image: -webkit-linear-gradient( -90deg, #A2AAAD 0%, #1D252D 100%);
+		background-image: -ms-linear-gradient( -90deg, #A2AAAD 0%, #1D252D 100%);
+		width: 90%;
+		min-width: 400px;
+		max-width: 700px;
+		margin: 0 auto;
+		padding: 25px;
+}
+
+.sign-up-modal form {
+		margin: 0 auto;
+		text-align: center;
+}
+
+.sign-up-modal input::-webkit-input-placeholder {
+		color: #fefefe;
+		opacity: .20;
+}
+
+.sign-up-modal input:focus::-webkit-input-placeholder {
+		color: #111;
+		opacity: .5;
+		transition: all 0.3s ease;
+}
+
+.sign-up-modal input[type="email"],
+.sign-up-modal input[type="text"],
+.sign-up-modal input[type="password"] {
+		font-weight: 700;
+		font-size: 1.4em;
+		padding: 10px;
+		border-width: 2px;
+		border-color: rgba(247, 247, 247, .3);
+		border-style: solid;
+		background: url('transparent');
+}
+
+.sign-up-modal input[type="email"]:focus,
+.sign-up-modal input[type="text"]:focus,
+.sign-up-modal input[type="password"]:focus {
+		background: white;
+		transition: all 0.3s ease;
+		color: #222;
+}
