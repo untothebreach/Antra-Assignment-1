@@ -4,6 +4,10 @@ body {
 		background-color: #1D252D;
 }
 
+a {
+    color: dodgerblue;
+}
+
 .sign-up-modal {
 		font-family: "Roboto", arial, sans-serif;
 		color: #CBC4BC;
