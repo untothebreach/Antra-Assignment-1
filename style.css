@@ -4,16 +4,6 @@ body {
 		background-color: #1D252D;
 }
 
-.sign-up-modal p,
-.sign-up-modal .form-checkbox label {
-		font-size: 1em;
-		font-weight: 300;
-}
-
-.sign-up-modal .form-checkbox label {
-		cursor: pointer;
-}
-
 .sign-up-modal {
 		font-family: "Roboto", arial, sans-serif;
 		color: #CBC4BC;
@@ -23,7 +13,6 @@ body {
 		border-radius: 10px 10px 10px 10px;
 		background-image: -moz-linear-gradient( -90deg, #A2AAAD 0%, #1D252D 100%);
 		background-image: -webkit-linear-gradient( -90deg, #A2AAAD 0%, #1D252D 100%);
-		background-image: -ms-linear-gradient( -90deg, #A2AAAD 0%, #1D252D 100%);
 		width: 90%;
 		min-width: 400px;
 		max-width: 700px;
