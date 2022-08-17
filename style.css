@@ -31,7 +31,7 @@ a {
 
 .sign-up-modal input::-webkit-input-placeholder {
 		color: #fefefe;
-		opacity: .20;
+		opacity: .23;
 }
 
 .sign-up-modal input:focus::-webkit-input-placeholder {
